@@ -1,0 +1,37 @@
+#study__say {
+  padding: 3rem 0 3rem 0;
+  background: #f7f8fa;
+}
+
+.student__content {
+  display: flex;
+}
+
+.student__item {
+  box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+  padding: 2rem;
+  width: calc(33.3333% - 10px);
+}
+
+.student__info {
+  display: flex;
+  align-items: center;
+  margin-bottom: 1rem;
+}
+
+.student-img {
+  object-fit: cover;
+  border-radius: 50%;
+  background-position: center center;
+  width: 7rem;
+  height: 7rem;
+  margin-right: 1rem;
+}
+
+.student-name {
+  font-weight: 500;
+}
+
+.student__desc {
+  opacity: 0.8;
+}

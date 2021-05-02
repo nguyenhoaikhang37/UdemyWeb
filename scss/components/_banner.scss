@@ -1,0 +1,153 @@
+#banner {
+  background: url(../img/cover.jpg) center center / cover no-repeat;
+  padding-top: 40%;
+  object-fit: cover;
+  position: relative;
+
+  .header__input {
+    font-size: 2rem;
+    font-weight: 100;
+  }
+}
+
+.banner__content {
+  position: absolute;
+  top: 50%;
+  transform: translateY(-50%);
+  max-width: 460px;
+}
+.banner-title {
+  font-size: 3.5rem;
+  color: white;
+  text-shadow: 0 2px 4px rgba(0, 0, 0, 0.5);
+}
+.info {
+  font-size: 1.8rem;
+  color: white;
+  font-weight: 300;
+  margin: 1rem 0;
+}
+
+.banner__list {
+  background: linear-gradient(-45deg, #ec5252 0%, #6e1a52 100%);
+
+  &-content {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 2rem 0;
+  }
+}
+.banner__item {
+  display: flex;
+}
+
+.banner-icon {
+  color: white;
+  font-size: 5rem;
+  margin-right: 1rem;
+}
+
+.item__content-text1 {
+  font-size: 1.8rem;
+  font-weight: 500;
+  color: white;
+}
+.item__content-text2 {
+  color: white;
+  font-size: 1.5rem;
+}
+
+#benefit {
+  background: #f2f3f5;
+  .benefit__content {
+    display: flex;
+    justify-content: space-between;
+    padding: 3rem 0;
+  }
+  .benefit__item {
+    width: calc(33.33% - 1rem);
+    text-align: center;
+    display: flex;
+    padding: 2rem 2rem 5rem 2rem;
+    background: white;
+    border: 1px solid #f2f3f5;
+    box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+    text-align: left;
+    img {
+      width: 50px;
+      height: 50px;
+      margin-right: 2rem;
+    }
+  }
+  .item__content-text1 {
+    color: black;
+  }
+  .item__content-text2 {
+    color: black;
+  }
+}
+
+/*-- Recommend --*/
+#recommend {
+  height: 350px;
+  background: #292f3b;
+  padding: 50px 0 35px 0;
+  position: relative;
+  text-align: center;
+
+  .btn1 {
+    padding: 0.5rem 1rem;
+  }
+}
+
+.re__content {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  color: white;
+}
+
+.re__title {
+  margin-bottom: 0;
+  // line-height: 0;
+}
+
+.re__desc {
+  margin: 1rem 0 2rem 0;
+}
+
+.re__icon-top {
+  display: flex;
+  justify-content: space-around;
+}
+
+.r-icon {
+  color: white;
+  font-size: 3rem;
+}
+
+.bottom-pos {
+  position: absolute;
+  width: 100%;
+  bottom: 10%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+
+.mid-pos {
+  position: absolute;
+  width: 100%;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+
+.top-pos {
+  position: absolute;
+  width: 100%;
+  top: 10%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}

@@ -1,0 +1,57 @@
+/* Table: width < 1024px */
+@media Screen and (max-width: 46.1875em) {
+  #banner {
+    padding-top: 60%;
+
+    .header__input {
+      font-size: 1rem;
+      padding: 5px;
+    }
+    .banner__content {
+      max-width: 300px;
+    }
+    .banner-title {
+      font-size: 1.5rem;
+    }
+    .info {
+      font-size: 1rem;
+    }
+    .search-icon {
+      font-size: 1.2rem;
+    }
+  }
+  .banner__list {
+    display: none;
+  }
+  #benefit {
+    .benefit__content {
+      flex-direction: column;
+    }
+    .benefit__item {
+      width: 100%;
+      margin: 1rem auto;
+    }
+    .item__content-text1 {
+      font-size: 1.5rem;
+    }
+    .item__content-text2 {
+      font-size: 1rem;
+    }
+  }
+  #tab {
+    .nav-tabs {
+      .nav-item {
+        width: 100%;
+        .nav-link {
+          font-size: 1rem !important;
+          &:hover {
+            color: #003845;
+          }
+        }
+        .active {
+          border-bottom: 4px solid #007790;
+        }
+      }
+    }
+  }
+}

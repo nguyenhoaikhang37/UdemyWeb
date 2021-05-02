@@ -1,0 +1,160 @@
+/* Table: width < 1024px */
+@media Screen and (max-width: 63.9375em) {
+  .header-mobile {
+    display: block;
+
+    .fa-bars,
+    .fa-search,
+    .shop-icon {
+      font-size: 1.2rem;
+      color: #8d929f;
+      cursor: pointer;
+    }
+  }
+  .header-pc {
+    display: none;
+  }
+  #banner {
+    padding-top: 60%;
+
+    .header__input {
+      font-size: 1.3rem;
+      padding: 7px;
+    }
+    .banner__content {
+      max-width: 400px;
+    }
+    .banner-title {
+      font-size: 1.5rem;
+    }
+    .info {
+      font-size: 1.3rem;
+    }
+
+    .search-icon {
+      font-size: 1.3rem;
+    }
+  }
+  .banner__list {
+    .banner__item {
+      flex-direction: column;
+      text-align: center;
+    }
+    .banner-icon {
+      font-size: 3rem;
+    }
+    .item__content-text1 {
+      font-size: 1.3rem;
+    }
+    .item__content-text2 {
+      font-size: 1.1rem;
+    }
+  }
+  #tab {
+    .left-content {
+      display: none;
+    }
+    .tab {
+      &-container {
+        flex-wrap: wrap;
+      }
+      &-item {
+        width: 100%;
+      }
+      &-review {
+        flex-direction: column-reverse;
+      }
+    }
+  }
+
+  #recommend {
+    .top-pos {
+      display: none;
+    }
+    .mid-pos {
+      display: none;
+    }
+    .bottom-pos {
+      display: none;
+    }
+    .re__content {
+      .re__title {
+        font-size: 1.3rem;
+      }
+      .re__desc {
+        font-size: 1rem;
+      }
+      .btn1 {
+        font-size: 1rem;
+      }
+    }
+  }
+
+  #category {
+    .category__content {
+      grid-template-columns: 1fr;
+      grid-gap: 1.5rem 1.5rem;
+    }
+  }
+  .slick-prev::before,
+  .slick-next::before {
+    display: none;
+  }
+
+  .partner {
+    &__logo {
+      flex-direction: column;
+      // margin: 0 auto;
+      align-items: center;
+    }
+  }
+
+  .feature {
+    flex-direction: column;
+
+    &__item {
+      margin-bottom: 3rem;
+    }
+
+    &__title {
+      font-size: 1.3rem;
+    }
+
+    &__desc {
+      font-size: 1.3rem;
+    }
+
+    .btn1 {
+      font-size: 1.2rem;
+      padding: 0;
+      width: 10rem;
+    }
+  }
+
+  .footer {
+    &__list {
+      flex-direction: column;
+    }
+
+    &__box {
+      flex-direction: column;
+    }
+    &__end {
+      flex-direction: column;
+    }
+  }
+
+  .item-list {
+    .item-item {
+      font-size: 1.3rem;
+    }
+  }
+
+  .menu__click {
+    display: none;
+  }
+
+  .menu__overlay {
+    display: none;
+  }
+}

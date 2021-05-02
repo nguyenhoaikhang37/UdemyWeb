@@ -1,0 +1,12 @@
+#category {
+  padding: 4rem 0;
+  .category__content {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    grid-gap: 1.5rem 3rem;
+  }
+  .category__item {
+    box-shadow: 0px 5px 15px 0px rgba(123, 120, 248, 0.5);
+    padding: 1.5rem 1rem;
+  }
+}
